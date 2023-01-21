@@ -1,0 +1,80 @@
+<!--
+    Author: Brody Richardson
+    Course: CISP 220
+    Date: 11/18/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+        <meta charset="utf-8">
+        <link rel="Stylesheet" href="styles.css">
+        <script type="text/javascript" src="help.js" defer></script>
+
+    <body>
+
+        <title>Help</title>
+        <h1>Printing Help</h1>
+
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="help.html">Help</a>
+            <a href="about.html">About</a>
+            <a href="resources.html">Resources</a>
+            <a href="explore.html">Explore</a>
+        </div>
+        
+        <h2>Importance of Nozzle Temperature</h2>
+        <p>When you are using your 3d printer, it is incredibly important that you know what temperature is safe to print your fillament type at. There are many different fillament types available for 3d printing and it is important to be able to distinguish the difference in temperature required for each.</p>
+        <p>Consult the table below to ensure you get an accurate print.</p>
+        <table>
+            <tr>
+                <td>Fillament:</td>
+                <td>Required Temperature:</td>
+            </tr>
+            <tr>
+                <td>PLA</td>
+                <td>180° to 210° C</td>
+            </tr>
+            <tr>
+                <td>ABS</td>
+                <td>210° to 250° C</td>
+            </tr>
+            <tr>
+                <td>PETG</td>
+                <td>220° to 250° C</td>
+            </tr>
+            <tr>
+                <td>NYLON</td>
+                <td>240° to 260° C</td>
+            </tr>
+            <tr>
+                <td>TPU</td>
+                <td>210° to 230° C</td>
+            </tr>
+        </table>
+
+        <h2>Temperature Converter</h2>
+        <p>Feel free to use the temperature converter tool below to get an accurate reading for your nozzle!</p>
+
+        <article>
+            <h2>Fahrenheit (&#176; F) to Celsius (&#176; C) converter</h2>
+            <form>
+               <div>
+                  <h3>Temp in &#176; F</h3>
+                  <input type="number" id="fValue" value="32" />
+               </div>
+               <div id="arrow">&harr;</div>
+               <div>
+                  <h3>Temp in &#176; C</h3>
+                  <input type="number" id="cValue" value="0" />            
+               </div>
+           </form>
+           <footer>
+              Enter a Fahrenheit or Celsius temperature in either input box and press Tab to convert.
+           </footer>
+         </article>
+
+    </body>
+
+    
+</html>
